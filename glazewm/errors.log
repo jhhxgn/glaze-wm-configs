@@ -1,0 +1,15 @@
+[2m2024-12-19T16:24:21.773759Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[24].commands: unrecognized subcommand
+ at line 241 column 15
+[2m2024-12-19T16:29:06.559736Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m keybindings[24].commands: unrecognized subcommand
+ at line 241 column 15
+[2m2024-12-20T09:36:34.175984Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Workspace with name '1' doesn't exist or is already active.
+[2m2024-12-20T10:22:49.956504Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[4].commands: unrecognized subcommand
+ at line 174 column 15
+[2m2024-12-20T10:22:57.591510Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[4].commands: unrecognized subcommand
+ at line 174 column 15
+[2m2024-12-20T14:13:40.823184Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: one or more required arguments were not provided
+ at line 162 column 15
+[2m2024-12-20T14:14:11.957542Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[1].commands: one or more required arguments were not provided
+ at line 162 column 15
+[2m2024-12-20T14:17:03.664463Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.cursor_jump.trigger: unknown variant `windows_focus`, expected `monitor_focus` or `window_focus` at line 28 column 14
+[2m2024-12-21T21:21:14.777410Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
