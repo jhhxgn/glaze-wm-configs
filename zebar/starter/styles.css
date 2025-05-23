@@ -6,7 +6,8 @@
 
 i {
   /* color: rgba(115, 130, 176, 0.949); */
-  color: rgba(0, 178, 148, 0.949);
+  /* color: rgba(0, 178, 148, 0.949); */
+  color: #b4befe;
   margin-right: 7px;
 }
 
@@ -84,7 +85,8 @@ body,
   &.focused,
   &:hover {
     /* background: rgb(75 115 255 / 50%); */
-    background: rgba(0, 178, 148, 0.50);
+    /* background: rgba(0, 178, 148, 0.50); */
+    background: rgba(100, 121, 255, 0.774);
   }
 }
 

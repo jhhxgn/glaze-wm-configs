@@ -13,3 +13,96 @@
  at line 162 column 15
 [2m2024-12-20T14:17:03.664463Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general.cursor_jump.trigger: unknown variant `windows_focus`, expected `monitor_focus` or `window_focus` at line 28 column 14
 [2m2024-12-21T21:21:14.777410Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-01-10T20:33:00.075646Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-01-13T10:50:28.696135Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-01-13T10:50:38.986301Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-01-19T11:12:36.055734Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-01-20T09:21:48.014365Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m window_rules[10].commands: unrecognized subcommand
+ at line 200 column 15
+[2m2025-01-22T17:25:34.083599Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-22T17:25:36.559848Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-01-27T10:00:01.188445Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-01-27T10:29:12.766076Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-01-27T10:29:27.723136Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-01-28T08:18:08.957965Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-01-31T08:27:28.329393Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-03T10:26:59.808721Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-02-03T10:27:09.341543Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-02-03T14:15:13.368790Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-02-03T14:15:21.943315Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-02-14T06:32:56.341920Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-24T08:24:03.512735Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-02-26T13:34:53.803863Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-02-26T13:40:59.798132Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-02-26T13:41:00.997502Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-07T12:27:15.323425Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-03-12T12:31:29.407928Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-12T12:59:00.419000Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-12T12:59:00.766807Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-14T13:36:23.408921Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-20T07:36:46.969767Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-03-21T13:55:10.244410Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-03-21T13:59:51.284647Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-21T13:59:51.648536Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-03-25T07:25:44.746745Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-03-27T07:41:41.311148Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-03-31T07:34:21.013047Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-02T06:41:13.094853Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-07T07:39:29.320567Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-07T08:59:14.223622Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-04-07T09:10:16.070973Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-04-07T09:10:16.947402Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-04-07T09:10:17.995453Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-04-07T09:10:26.799229Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-04-08T11:56:28.958999Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-22T06:13:29.439947Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:31.615812Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:32.704117Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:33.198806Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:33.601218Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:33.871647Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:34.215089Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:34.561631Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:34.951951Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:35.280706Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:36.083409Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:43.126888Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:52.561285Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-22T06:13:52.930993Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Invalid window handle. (0x80070578)
+[2m2025-04-25T06:41:24.631354Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-28T07:24:24.214358Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-04-28T11:52:50.085309Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-05-02T07:53:12.495981Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m The requested lookup key was not found in any active activation context. (0x800736B7)
+[2m2025-05-05T09:42:48.716336Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:03.229061Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:06.423273Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:06.853944Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:07.655258Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:08.135416Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:08.350046Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:08.524476Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-05T10:36:08.865545Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:53:53.429064Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:54:53.135422Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:54:54.454043Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:54:59.854731Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:55:00.182109Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:55:01.312844Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:55:01.706152Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-07T06:55:02.205128Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-12T09:33:53.689261Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m At least 1 workspace is required per monitor.
+
+Caused by:
+    No workspace config available to activate workspace.
+[2m2025-05-12T09:34:15.578913Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-12T09:34:23.285314Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No displayed workspace.
+[2m2025-05-12T09:34:25.235850Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No displayed workspace.
+[2m2025-05-12T10:17:42.384455Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-12T10:18:56.314677Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-12T10:18:57.689388Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-12T10:18:57.789561Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-12T10:18:57.948625Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m channel closed
+[2m2025-05-13T09:55:30.784925Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-05-14T06:18:09.670168Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2025-05-16T11:13:45.023524Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)
+[2m2025-05-22T10:11:27.456151Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Access is denied. (0x80070005)

@@ -60,7 +60,7 @@ window_effects:
     # ** Exclusive to Windows 11 due to API limitations.
     border:
       enabled: true
-      color: '#00B294'
+      color: '#b4befe'
 
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
@@ -118,21 +118,20 @@ workspaces:
     display_name: '2-TERM'
     bind_to_monitor: 1
   - name: '3'
-    display_name: '3-CLAUDE'
+    display_name: '3-AI'
     bind_to_monitor: 0
   - name: '4'
     display_name: '4-WEB'
     bind_to_monitor: 0
-
-    
-  # Secondary monitor
   - name: '5'
     display_name: '5-SOCIAL'
     bind_to_monitor: 1
     
-  # Other workspaces without specific monitor bindings
   - name: '6'
-    display_name: 'MISC1'
+    display_name: '6-NOTES'
+    bind_to_monitor: 1
+  # Other workspaces without specific monitor bindings
+  
   - name: '7'
     display_name: 'MISC2'
   - name: '8'
@@ -168,33 +167,82 @@ window_rules:
   - commands: ['move --workspace 2', 'set-tiling']
     match:
       - window_process: { equals: 'WindowsTerminal' }
+      
+  - commands: ['move --workspace 2', 'set-tiling']
+    match:
+      - window_process: { equals: 'warp' }
+  
 
   - commands: ['move --workspace 2', 'set-tiling']
     match:
       - window_process: { equals: 'explorer.exe' }
         window_class: { equals: 'CabinetWClass' }
 
-  # Browsers to workspace 3
+
+  # Browsers to workspace 4
   - commands: ['move --workspace 4', 'set-tiling']
     match:
       - window_process: { regex: 'msedge|firefox|chrome|brave' }
-  # Claude to workspace 4 (CLAUDE)
-  - commands: ['move --workspace 3', 'set-tiling']
-    match:
-      - window_process: { equals: 'claude' }
-
   # Social/Media apps to workspace 5 (SOCIAL)
   - commands: ['move --workspace 5', 'set-tiling']
     match:
       - window_process: { equals: 'ms-teams' }
   - commands: ['move --workspace 5', 'set-tiling']
     match:
+      - window_process: { equals: 'ms-teams' }
+        window_title: { regex: '^(?!.*Meeting).*Microsoft Teams$' }  # Main window, excluding meetings
+
+
+    # Claude to workspace 3 (AI) - Keep this if you use the Claude app
+  - commands: ['move --workspace 3', 'set-tiling']
+    match:
+      - window_process: { equals: 'claude' }
+
+  # T3 Chat website in browser to workspace 3 (AI)
+  - commands: ['move --workspace 3', 'set-tiling']
+    match:
+      - window_process: { regex: 'msedge|firefox|chrome|brave' } # Match common browsers
+        window_title: { regex: '.*T3 Chat.*' } # Match titles containing "T3 Chat"
+
+
+  # Meeting windows - floating
+  - commands: ['set-floating']
+    match:
+      - window_process: { equals: 'ms-teams' }
+        window_title: { regex: 'Meeting|Call|Screen sharing|\| Microsoft Teams' }
+  - commands: ['move --workspace 5', 'set-tiling']
+    match:
       - window_process: { equals: 'olk' }
   - commands: ['move --workspace 5', 'set-tiling']
     match:
       - window_process: { equals: 'Spotify' }
+  - commands: ['move --workspace 6', 'set-tiling']
+    match:
+      - window_process: { equals: 'Obsidian' }
+        window_class: { equals: 'Chrome_WidgetWin_1' }
 
+  - commands: ['move --workspace 6', 'set-tiling']
+    match:
+      - window_process: { equals: 'ONENOTE' }
 
+  - commands: ['move --workspace 7', 'set-tiling']
+    match:
+      - window_process: { equals: 'dbeaver' }
+
+  - commands: ['move --workspace 8', 'set-tiling']
+    match:
+      - window_process: { equals: 'mRemoteNG' }
+
+  # Floaters
+  - commands: ['move --workspace 7', "set-floating"]
+    match:
+      - window_process: { equals: "1Password" }
+  - commands: ['move --workspace 7', "set-floating"]
+    match:
+      - window_process: { equals: "Pulse" }
+  - commands: ['move --workspace 7', "set-floating"]
+    match:
+      - window_process: { equals: "TrGUI" }
 
 
 binding_modes:
